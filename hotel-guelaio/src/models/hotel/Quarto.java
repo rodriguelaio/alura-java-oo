@@ -1,11 +1,13 @@
 package models.hotel;
 
+import enums.Varanda;
+
 public class Quarto {
     private int numero;
-    private boolean varanda;
+    private Varanda varanda;
     private Cama[] cama;
 
-    public Quarto(int numero, boolean varanda, Cama[] cama) {
+    public Quarto(int numero, Varanda varanda, Cama[] cama) {
         setNumero(numero);
         setVaranda(varanda);
         setCama(cama);
@@ -15,8 +17,8 @@ public class Quarto {
         return numero;
     }
 
-    public boolean isVaranda() {
-        return varanda;
+    public boolean temVaranda() {
+        return this.varanda.name().equals("SIM");
     }
 
     public Cama[] getCama() {
@@ -27,7 +29,7 @@ public class Quarto {
         this.numero = numero;
     }
 
-    public void setVaranda(boolean varanda) {
+    public void setVaranda(Varanda varanda) {
         this.varanda = varanda;
     }
 

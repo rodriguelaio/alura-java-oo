@@ -1,5 +1,6 @@
 package main;
 
+import enums.Varanda;
 import models.Booking;
 import models.Cliente;
 import models.Endereco;
@@ -28,7 +29,7 @@ public class TestarHotel {
         CamaCasal camaCasal = new CamaCasal(32, 132, 189);
         CamaSolteiro camaSolteiro = new CamaSolteiro(28, 88, 189);
 
-        Quarto quarto = new Quarto(666, true, new Cama[]{camaCasal, camaSolteiro});
+        Quarto quarto = new Quarto(666, Varanda.SIM, new Cama[]{camaCasal, camaSolteiro});
 
         Booking booking = new Booking(recepcionista);
 
