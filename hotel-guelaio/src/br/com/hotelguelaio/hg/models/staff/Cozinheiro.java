@@ -1,6 +1,6 @@
-package br.com.hotelguelaio.models.staff;
+package br.com.hotelguelaio.hg.models.staff;
 
-import br.com.hotelguelaio.models.Endereco;
+import br.com.hotelguelaio.hg.models.Endereco;
 
 public class Cozinheiro extends Funcionario {
     public Cozinheiro(String nome, String cpf, double salario, Endereco endereco) {

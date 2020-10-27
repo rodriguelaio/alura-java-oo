@@ -1,6 +1,6 @@
-package br.com.hotelguelaio.models;
+package br.com.hotelguelaio.hg.models;
 
-import br.com.hotelguelaio.interfaces.UsuarioAutenticavel;
+import br.com.hotelguelaio.hg.interfaces.UsuarioAutenticavel;
 
 public class Autenticador implements UsuarioAutenticavel {
 

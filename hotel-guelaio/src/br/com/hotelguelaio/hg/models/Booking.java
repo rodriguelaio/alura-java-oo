@@ -1,7 +1,7 @@
-package br.com.hotelguelaio.models;
+package br.com.hotelguelaio.hg.models;
 
-import br.com.hotelguelaio.interfaces.UsuarioDeReservas;
-import br.com.hotelguelaio.models.hotel.Quarto;
+import br.com.hotelguelaio.hg.interfaces.UsuarioDeReservas;
+import br.com.hotelguelaio.hg.models.hotel.Quarto;
 
 import java.util.Date;
 

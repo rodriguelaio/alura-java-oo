@@ -1,6 +1,6 @@
-package br.com.hotelguelaio.models.hotel;
+package br.com.hotelguelaio.hg.models.hotel;
 
-import br.com.hotelguelaio.enums.Varanda;
+import br.com.hotelguelaio.hg.enums.Varanda;
 
 public class Quarto {
     private int numero;

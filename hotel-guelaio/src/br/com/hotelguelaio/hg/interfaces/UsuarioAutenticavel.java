@@ -1,4 +1,4 @@
-package br.com.hotelguelaio.interfaces;
+package br.com.hotelguelaio.hg.interfaces;
 
 public interface UsuarioAutenticavel {
 

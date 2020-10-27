@@ -1,14 +1,14 @@
-package br.com.hotelguelaio.main;
+package br.com.hotelguelaio.hg.main;
 
-import br.com.hotelguelaio.enums.Varanda;
-import br.com.hotelguelaio.models.Booking;
-import br.com.hotelguelaio.models.Cliente;
-import br.com.hotelguelaio.models.Endereco;
-import br.com.hotelguelaio.models.hotel.Cama;
-import br.com.hotelguelaio.models.hotel.CamaCasal;
-import br.com.hotelguelaio.models.hotel.CamaSolteiro;
-import br.com.hotelguelaio.models.hotel.Quarto;
-import br.com.hotelguelaio.models.staff.Recepcionista;
+import br.com.hotelguelaio.hg.enums.Varanda;
+import br.com.hotelguelaio.hg.models.Booking;
+import br.com.hotelguelaio.hg.models.Cliente;
+import br.com.hotelguelaio.hg.models.Endereco;
+import br.com.hotelguelaio.hg.models.hotel.Cama;
+import br.com.hotelguelaio.hg.models.hotel.CamaCasal;
+import br.com.hotelguelaio.hg.models.hotel.CamaSolteiro;
+import br.com.hotelguelaio.hg.models.hotel.Quarto;
+import br.com.hotelguelaio.hg.models.staff.Recepcionista;
 
 import java.util.Date;
 

@@ -1,4 +1,4 @@
-package br.com.hotelguelaio.exceptions;
+package br.com.hotelguelaio.hg.exceptions;
 
 public class PeriodoException extends RuntimeException {
 

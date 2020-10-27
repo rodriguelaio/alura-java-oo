@@ -1,4 +1,4 @@
-package br.com.hotelguelaio.models;
+package br.com.hotelguelaio.hg.models;
 
 public class Cliente {
     private String nome;
