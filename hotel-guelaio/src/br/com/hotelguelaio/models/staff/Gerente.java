@@ -1,8 +1,8 @@
-package models.staff;
+package br.com.hotelguelaio.models.staff;
 
-import interfaces.UsuarioAutenticavel;
-import models.Autenticador;
-import models.Endereco;
+import br.com.hotelguelaio.interfaces.UsuarioAutenticavel;
+import br.com.hotelguelaio.models.Autenticador;
+import br.com.hotelguelaio.models.Endereco;
 
 public class Gerente extends Funcionario implements UsuarioAutenticavel {
 

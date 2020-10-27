@@ -1,4 +1,4 @@
-package models.hotel;
+package br.com.hotelguelaio.models.hotel;
 
 public class CamaKing extends Cama {
     public CamaKing(double altura, double largura, double comprimento) {

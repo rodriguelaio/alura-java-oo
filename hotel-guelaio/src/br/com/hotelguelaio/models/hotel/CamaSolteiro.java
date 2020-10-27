@@ -1,4 +1,4 @@
-package models.hotel;
+package br.com.hotelguelaio.models.hotel;
 
 public class CamaSolteiro extends Cama {
     public CamaSolteiro(double altura, double largura, double comprimento) {

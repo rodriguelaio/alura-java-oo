@@ -1,4 +1,4 @@
-package models;
+package br.com.hotelguelaio.models;
 
 public class Endereco {
     private String logradouro;

@@ -1,4 +1,4 @@
-package models.hotel;
+package br.com.hotelguelaio.models.hotel;
 
 public abstract class Cama {
     private double altura;

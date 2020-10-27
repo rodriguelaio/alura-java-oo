@@ -1,4 +1,4 @@
-package enums;
+package br.com.hotelguelaio.enums;
 
 public enum Varanda {
 

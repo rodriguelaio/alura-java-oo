@@ -1,9 +1,9 @@
-package models.staff;
+package br.com.hotelguelaio.models.staff;
 
-import interfaces.UsuarioAutenticavel;
-import interfaces.UsuarioDeReservas;
-import models.Autenticador;
-import models.Endereco;
+import br.com.hotelguelaio.interfaces.UsuarioAutenticavel;
+import br.com.hotelguelaio.interfaces.UsuarioDeReservas;
+import br.com.hotelguelaio.models.Autenticador;
+import br.com.hotelguelaio.models.Endereco;
 
 public class Recepcionista extends Funcionario implements UsuarioAutenticavel, UsuarioDeReservas {
 

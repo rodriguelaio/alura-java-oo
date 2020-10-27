@@ -1,6 +1,6 @@
-package models.staff;
+package br.com.hotelguelaio.models.staff;
 
-import models.Endereco;
+import br.com.hotelguelaio.models.Endereco;
 
 public abstract class Funcionario {
 

@@ -1,6 +1,6 @@
-package models;
+package br.com.hotelguelaio.models;
 
-import models.hotel.Quarto;
+import br.com.hotelguelaio.models.hotel.Quarto;
 
 import java.util.Date;
 
