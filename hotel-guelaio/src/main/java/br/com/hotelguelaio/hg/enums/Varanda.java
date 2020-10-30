@@ -4,13 +4,17 @@ public enum Varanda {
 
 	SIM(190.0), NAO(0.0);
 
-	double valor;
+	Double valor;
 
-	Varanda(double valor){
+	public Double getValor() {
+		return valor;
+	}
+
+	Varanda(Double valor){
 		setValor(valor);
 	}
 
-	void setValor(double valor){
+	void setValor(Double valor){
 		this.valor = valor;
 	}
 }

@@ -5,4 +5,8 @@ public class CamaKing extends Cama {
         super(altura, largura, comprimento);
     }
 
+    @Override
+    public Double getValorDaCama() {
+        return super.getValorDaCama() * 5;
+    }
 }

@@ -34,4 +34,8 @@ public abstract class Cama {
     public void setComprimento(Double comprimento) {
         this.comprimento = comprimento;
     }
+
+    public Double getValorDaCama() {
+        return 100.0;
+    }
 }
