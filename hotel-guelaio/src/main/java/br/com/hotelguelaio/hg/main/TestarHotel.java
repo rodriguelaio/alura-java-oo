@@ -9,6 +9,9 @@ import br.com.hotelguelaio.hg.models.staff.*;
 public class TestarHotel {
     public static void main(String[] args) {
 
+        String teste = String.format("%06d - %d - %s - %s", 10, 10.99, "rodrigones", "dona rosinha");
+        System.out.println(teste);
+
         Gerente gerente = new Gerente("Demonio", "123321123", 100.0,
                 new Endereco("Av. Vacaiado", 777, "flau",
                         "LUZ", "MG", "666"));

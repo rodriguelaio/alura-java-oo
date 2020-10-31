@@ -1,11 +1,16 @@
 package br.com.hotelguelaio.hg.models;
 
-public class Cliente {
+import java.io.Serializable;
+
+public class Cliente implements Serializable {
+
+    private static final long serialVersionUID = 1L;
+
     private String nome;
     private String cpf;
-    private Endereco endereco;
+    private transient Endereco endereco; //Não faz parte da serialização e não será enviado no stream de dados
 
-    public Cliente(String nome, String cpf, Endereco endereco){
+    public Cliente(String nome, String cpf, Endereco endereco) {
         setNome(nome);
         setCpf(cpf);
         setEndereco(endereco);

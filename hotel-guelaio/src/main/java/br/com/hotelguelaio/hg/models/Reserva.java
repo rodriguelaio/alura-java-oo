@@ -7,7 +7,7 @@ import java.util.Date;
 public class Reserva {
     private Cliente cliente;
     private Quarto quarto;
-    private Double valor;
+    private double valor;
     private Date dataInicio;
     private Date dataFim;
 
@@ -24,7 +24,7 @@ public class Reserva {
         return quarto;
     }
 
-    public Double getValor() {
+    public double getValor() {
         return valor;
     }
 

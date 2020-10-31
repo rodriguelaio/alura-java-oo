@@ -5,13 +5,13 @@ import br.com.hotelguelaio.hg.interfaces.UsuarioAutenticavel;
 //para colocar a regra de negocio que outra(s) classe(s) utilizara(ao)
 public class Autenticador implements UsuarioAutenticavel {
 
-    private Integer senha;
+    private int senha;
 
-    public void setSenha(Integer senha) {
+    public void setSenha(int senha) {
         this.senha = senha;
     }
 
-    public Boolean autenticar(Integer senha) {
+    public boolean autenticar(int senha) {
         return this.senha == senha;
     }
 }

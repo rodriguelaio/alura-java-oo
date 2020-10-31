@@ -4,8 +4,8 @@ package br.com.hotelguelaio.hg.interfaces;
 public interface UsuarioAutenticavel {
     //Tambem não existe a necessidade de se definir o modificador de acesso (ou visibilidade)
     //PUBLIC, pois, dentro de uma interface, todos os metodos ja são PUBLIC e ABSTRACT
-    void setSenha(Integer senha);
+    void setSenha(int senha);
 
-    Boolean autenticar(Integer senha);
+    boolean autenticar(int senha);
 
 }

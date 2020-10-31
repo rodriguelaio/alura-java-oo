@@ -8,7 +8,7 @@ public class Endereco {
     private String uf;
     private String cep;
 
-    public Endereco(String logradouro, Integer numero, String bairro, String cidade, String uf, String cep){
+    public Endereco(String logradouro, int numero, String bairro, String cidade, String uf, String cep){
         setLogradouro(logradouro);
         setNumero(numero);
         setBairro(bairro);
@@ -21,7 +21,7 @@ public class Endereco {
         return logradouro;
     }
 
-    public Integer getNumero() {
+    public int getNumero() {
         return numero;
     }
 
@@ -45,7 +45,7 @@ public class Endereco {
         this.logradouro = logradouro;
     }
 
-    public void setNumero(Integer numero) {
+    public void setNumero(int numero) {
         this.numero = numero;
     }
 

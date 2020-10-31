@@ -1,41 +1,44 @@
 package br.com.hotelguelaio.hg.models.hotel;
 
 public abstract class Cama {
-    private Double altura;
-    private Double largura;
-    private Double comprimento;
 
-    public Cama(Double altura, Double largura, Double comprimento) {
+    private static final double VALOR_PADRAO_CAMA = 100.0;
+
+    private double altura;
+    private double largura;
+    private double comprimento;
+
+    public Cama(double altura, double largura, double comprimento) {
         setAltura(altura);
         setLargura(largura);
         setComprimento(comprimento);
     }
 
-    public Double getAltura() {
+    public double getAltura() {
         return altura;
     }
 
-    public Double getLargura() {
+    public double getLargura() {
         return largura;
     }
 
-    public Double getComprimento() {
+    public double getComprimento() {
         return comprimento;
     }
 
-    public void setAltura(Double altura) {
+    public void setAltura(double altura) {
         this.altura = altura;
     }
 
-    public void setLargura(Double largura) {
+    public void setLargura(double largura) {
         this.largura = largura;
     }
 
-    public void setComprimento(Double comprimento) {
+    public void setComprimento(double comprimento) {
         this.comprimento = comprimento;
     }
 
-    public Double getValorDaCama() {
-        return 100.0;
+    public double getValorDaCama() {
+        return VALOR_PADRAO_CAMA;
     }
 }

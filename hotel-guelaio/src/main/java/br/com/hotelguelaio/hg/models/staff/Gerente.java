@@ -8,28 +8,22 @@ public class Gerente extends Funcionario implements UsuarioAutenticavel {
 
     Autenticador autenticador;
 
-    public Gerente (String nome, String cpf, Double salario, Endereco endereco){
+    public Gerente (String nome, String cpf, double salario, Endereco endereco) {
         super(nome, cpf, salario, endereco);
         autenticador = new Autenticador();
     }
 
     @Override
-    public Double getBonificacao() {
+    public double getBonificacao() {
         return super.getSalario() * 0.1;
     }
 
-    public void setSenha(Integer senha) {
+    public void setSenha(int senha) {
         autenticador.setSenha(senha);
     }
 
-    public Boolean autenticar(Integer senha) {
+    public boolean autenticar(int senha) {
         return autenticador.autenticar(senha);
-    }
-
-    @Override
-    public String toString(){
-        Double salarioTotal = this.getSalario() + this.getBonificacao();
-        return super.toString().replace("NOVOSALARIO", String.valueOf(salarioTotal));
     }
 
 }

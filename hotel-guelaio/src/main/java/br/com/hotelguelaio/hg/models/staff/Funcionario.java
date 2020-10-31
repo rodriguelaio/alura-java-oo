@@ -6,15 +6,15 @@ public abstract class Funcionario { //Classes abstratas não pode ser instanciad
 
     private String nome;
     private String cpf;
-    private Double salario;
+    private double salario;
     private Endereco endereco;
-    private static Integer totalFuncionarios;
+    private static int totalFuncionarios;
 
     public static void setTotalFuncionarios() {
         Funcionario.totalFuncionarios++;
     }
 
-    public Funcionario (String nome, String cpf, double salario, Endereco endereco){
+    public Funcionario (String nome, String cpf, double salario, Endereco endereco) {
         setNome(nome);
         setCpf(cpf);
         setSalario(salario);
@@ -30,7 +30,7 @@ public abstract class Funcionario { //Classes abstratas não pode ser instanciad
         return cpf;
     }
 
-    public Double getSalario() {
+    public double getSalario() {
         return salario;
     }
 
@@ -46,7 +46,7 @@ public abstract class Funcionario { //Classes abstratas não pode ser instanciad
         this.cpf = cpf;
     }
 
-    public void setSalario(Double salario) {
+    public void setSalario(double salario) {
         this.salario = salario;
     }
 
@@ -54,7 +54,7 @@ public abstract class Funcionario { //Classes abstratas não pode ser instanciad
         this.endereco = endereco;
     }
 
-    public Double getBonificacao() {
+    public double getBonificacao() {
         return getSalario() * 0.05;
     }
 

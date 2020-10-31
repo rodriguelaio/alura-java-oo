@@ -9,16 +9,16 @@ public class Recepcionista extends Funcionario implements UsuarioAutenticavel, U
 
     Autenticador autenticador;
 
-    public Recepcionista(String nome, String cpf, Double salario, Endereco endereco) {
+    public Recepcionista(String nome, String cpf, double salario, Endereco endereco) {
         super(nome, cpf, salario, endereco);
         autenticador = new Autenticador();
     }
 
-    public void setSenha(Integer senha) {
+    public void setSenha(int senha) {
         autenticador.setSenha(senha);
     }
 
-    public Boolean autenticar(Integer senha) {
+    public boolean autenticar(int senha) {
         return autenticador.autenticar(senha);
     }
 
